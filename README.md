@@ -1,0 +1,1 @@
+# federated-ingress-sample
