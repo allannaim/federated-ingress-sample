@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: nginxzone
+  name: nginxzone
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    name: http
+  selector:
+    app: nginxzone
+  type: LoadBalancer

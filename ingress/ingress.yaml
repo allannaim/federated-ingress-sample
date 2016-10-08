@@ -1,0 +1,8 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: federated-ingress-test
+spec:
+  backend:
+    serviceName: nginxzone
+    servicePort: 80
