@@ -4,5 +4,5 @@ metadata:
   name: federated-ingress-test
 spec:
   backend:
-    serviceName: nginxzone
+    serviceName: nginx
     servicePort: 80
