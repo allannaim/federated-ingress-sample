@@ -1,16 +1,16 @@
 apiVersion: extensions/v1beta1
 kind: ReplicaSet
 metadata:
-  name: nginxzone
+  name: nginx
   labels:
-    app: nginxzone
+    app: nginx
     type: demo
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: nginxzone
+        app: nginx
     spec:
       containers:
       - image: nginx
